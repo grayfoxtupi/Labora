@@ -38,15 +38,14 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
 | **Erros** | HTTP Status Codes + mensagem padrão |
 | **Versionamento** | `/api/v1/...` |
 
-**Exemplo de resposta padrão:**
+**Exemplo de resposta padrão e de erro:**
 ```json
 {
   "success": true,
-  "data": { },
+  "data": {},
   "message": "Operação realizada com sucesso"
 }
 
-**Exemplo de erro:**
 {
   "success": false,
   "error": "User not found",
